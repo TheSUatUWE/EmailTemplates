@@ -1,0 +1,253 @@
+
+    <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+   <title>
+        
+        Confirmation Email
+                
+
+    </title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+    <!-- Web Font / @font-face : BEGIN -->
+    <!-- NOTE: If web fonts are not required, lines 9 - 26 can be safely removed. -->
+    
+    <!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+    <!--[if mso]>
+        <style>
+            * {
+                font-family: sans-serif !important;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+    <!--[if !mso]><!-->
+        <!-- insert web font reference, eg: <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
+    <!--<![endif]-->
+
+    <!-- Web Font / @font-face : END -->
+    
+    <!-- CSS Reset -->
+    <style type="text/css">
+
+        /* What it does: Remove spaces around the email design added by some email clients. */
+        /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+        html,
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+        
+        /* What it does: Stops email clients resizing small text. */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        
+        /* What it does: Forces Outlook.com to display emails full width. */
+        .ExternalClass {
+            width: 100%;
+        }
+        
+        /* What is does: Centers email on Android 4.4 */
+        div[style*="margin: 16px 0"] {
+            margin:0 !important;
+        }
+        
+        /* What it does: Stops Outlook from adding extra spacing to tables. */
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+                
+        /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            Margin: 0 auto !important;
+        }
+        table table table {
+            table-layout: auto; 
+        }
+        
+        /* What it does: Uses a better rendering method when resizing images in IE. */
+        img {
+            -ms-interpolation-mode:bicubic;
+        }
+        
+        /* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+        .yshortcuts a {
+            border-bottom: none !important;
+        }
+        
+        /* What it does: A work-around for iOS meddling in triggered links. */
+        .mobile-link--footer a,
+        a[x-apple-data-detectors] {
+            color:inherit !important;
+            text-decoration: underline !important;
+        }
+      
+    </style>
+    
+    <!-- Progressive Enhancements -->
+    <style>
+        
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+    </style>
+
+
+<table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#222222" style="border-collapse:collapse;"><tr><td valign="top">
+    <center style="width: 100%;">
+
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
+
+                This template is for confirmation emails
+
+        </div>
+        <!-- Visually Hidden Preheader Text : END -->
+
+        <div style="max-width: 600px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+            <tr>
+            <td>
+            <![endif]-->
+
+            <!-- Email Header : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="margin: ;ax-width: 600px;">
+                <tr>
+                    <td style="padding: 20px 0; text-align: center">
+                        <img src="https://www.thestudentsunion.co.uk/pageassets/emailtemplates/master-template/logo.png" width="200" height="136" alt="The Students' Union Logo" border="0">
+                    </td>
+                </tr>
+            </table>
+            <!-- Email Header : END-->
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="max-width: 600px;">
+
+                <!-- 1 Column Text : BEGIN -->
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding: 20px; font-family: sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #fff;background:#e84253;">
+
+                               
+                                <p style="margin-bottom:0;"><strong>Warning!</strong> Important stuff here.</p>
+                                                     
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- 1 Column Text : END -->
+
+                <!-- 1 Column Text : BEGIN -->
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding: 20px; font-family: sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;">
+                                                      
+                                    <h2 style="margin:0;">1 Column Text</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem iste explicabo quidem fuga molestias voluptate neque, aut, similique iusto incidunt?</p>
+                                                     
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- 1 Column Text : END -->
+
+            </table>
+            <!-- Email Body : END -->
+            
+            <!-- Email Footer : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;">
+                <tr>
+                    <td style="padding: 20px 10px;width: 100%;font-size: 12px; font-family: sans-serif; mso-height-rule: exactly; line-height:18px; text-align: center; color: #888888;">
+                        
+                        <!-- Social Links : BEGIN -->
+                        <!-- Twitter : BEGIN -->
+                        <a style="padding:0px 5px 0px 5px; text-decoration:none;" href="http://twitter.com/thesuatuwe">
+                            <img src="https://www.thestudentsunion.co.uk/pageassets/emailtemplates/master-template/twitter(1).png" width="25px" alt="Twitter">
+                        </a>
+                        <!-- Twitter : END -->
+                        
+                        <!-- Spacer for Outlook [if gte mso 9]>&nbsp;&nbsp;<![endif]-->
+                        
+                        <!-- Instagram : BEGIN -->
+                        <a style="padding:0px 5px 0px 5px; text-decoration:none;" href="https://www.instagram.com/thesuatuwe/">
+                            <img src="https://www.thestudentsunion.co.uk/pageassets/emailtemplates/master-template/instagram(1).png" width="25px" alt="Instagram">
+                        </a>
+                        <!-- Instagram : END -->
+                        
+                        <!-- Spacer for Outlook [if gte mso 9]>&nbsp;&nbsp;<![endif]-->
+                        
+                        <!-- Facebook : BEGIN -->
+                        <a style="padding:0px 5px 0px 5px; text-decoration:none;" href="http://www.facebook.com/TheSUatUWE/">
+                            <img src="https://www.thestudentsunion.co.uk/pageassets/emailtemplates/master-template/facebook(1).png" width="25px" alt="Facebook">
+                        </a>
+                        <!-- Facebook : END -->
+                        <!-- Spacer for Outlook [if gte mso 9]>&nbsp;&nbsp;<![endif]-->
+                        
+                        <!-- Snapchat : BEGIN -->
+                        <a style="padding:0px 5px 0px 5px; text-decoration:none;" href="https://www.snapchat.com/add/THESUATUWE">
+                            <img src="https://www.thestudentsunion.co.uk/pageassets/emailtemplates/master-template/snapchat.png" width="25px" alt="Snapchat">
+                        </a>
+                        <!-- Snapchat : END -->
+                        <!-- Spacer for Outlook [if gte mso 9]>&nbsp;&nbsp;<![endif]-->
+                        
+                        <!-- Website : BEGIN -->
+                        <a style="padding:0px 5px 0px 5px; text-decoration:none;" href="http://www.thestudentsunion.co.uk/">
+                            <img src="https://www.thestudentsunion.co.uk/pageassets/emailtemplates/master-template/web.png" width="25px" alt="Website">
+                        </a>
+                        <!-- Website : END -->
+                        <!-- Social Links : END -->
+                        
+                        <br>
+                        <br>
+                        The Students' Union at UWE
+                        
+                        <br>
+                        <span class="mobile-link--footer">
+                            Union 1, Frenchay Campus, Coldharbour Lane, Bristol, BS16 1QY
+                        </span>
+                        
+                        <br>
+                        <span class="mobile-link--footer">
+                            +44 (0)117 32 82577
+                        </span>
+                        <br>
+                        <br>
+                        
+                    </td>
+                </tr>
+            </table>
+            <!-- Email Footer : END -->
+
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+    </center>
+</td></tr></table>
