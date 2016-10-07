@@ -1,0 +1,20 @@
+Email Templates:
+
+Notes:
+Images placed into a editable region need to be 520px wide (max)
+
+Github:
+https://github.com/TheSUatUWE/EmailTemplates
+
+General Templates:
+https://www.thestudentsunion.co.uk/emailtemplates/general-1col
+https://www.thestudentsunion.co.uk/emailtemplates/general-1col-2row/
+https://www.thestudentsunion.co.uk/emailtemplates/general-1col-3row/
+https://www.thestudentsunion.co.uk/emailtemplates/general-1col-4row/
+https://www.thestudentsunion.co.uk/emailtemplates/events-featured-4/
+
+
+Events Templates:
+https://www.thestudentsunion.co.uk/emailtemplates/events-2/
+https://www.thestudentsunion.co.uk/emailtemplates/events-4/
+https://www.thestudentsunion.co.uk/emailtemplates/events-featured-4/
